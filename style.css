@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#EAE3D2;
+    color:grey;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color:#4A2F24;
+    color:white;
+    padding: 25px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color:#EAE3D2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+
+
+img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 8px 8px black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    
+
+}
+
+ul li {
+    background-color:#eeddcc ;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    width:500px;
+}
+
+/* Table */
+table {
+    width: 60%;
+    margin: 15px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #A67C52;
+}
+
+th {
+    background-color: #A67C52;
+    color: black;
+    border: 1px solid black;
+}
+
+td {
+    background-color:#A67C52;
+    color:black;
+    border:1px solid black;
+}
+
+/* Form */
+form {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: beige;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#4A2F24;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: #1b5e20;
+}
+section:hover{
+    padding: 30px;
+}
+ img:hover{
+    width:75%;
+
+ }
+ ul li:hover{
+    transform:scale(1.5);
+
+ }
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background-color:#6B4F3A;
+    color: white;
+    padding: 15px;
+}
